@@ -118,11 +118,11 @@ window.addEventListener('DOMContentLoaded', function () {
 
   })
     
-    /*let slider = document.getElementById('.slider');
-    slider.addEventListener('click', function(event) {
-      let body = document.querySelector('.all_elements');
-      body.style.fontFamily = "sans-serif";
-    })*/
+  //   let slider = document.getElementById('.slider');
+  //   slider.addEventListener('click', function(event) {
+  //     let body = document.querySelector('.all_elements');
+  //     body.style.fontFamily = "sans-serif";
+  //   })
     
-  });
+  // });
   
