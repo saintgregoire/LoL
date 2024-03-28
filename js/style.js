@@ -13,13 +13,13 @@ function closeModale(element, modale ){
 
 window.addEventListener('DOMContentLoaded', function () {
     //header burger menu
-    let navbar = document.getElementById('navbar')
-    let burgerIcon = document.getElementById('burger-icon')
-    burgerIcon.addEventListener('click', toggleBurgerMenu)
+    let navbar = document.getElementById('navbar');
+    let burgerIcon = document.getElementById('burger-icon');
+    burgerIcon.addEventListener('click', toggleBurgerMenu);
   
     function toggleBurgerMenu() {
-      console.log('enter toggle')
-      navbar.classList.toggle('burger-display')
+      console.log('enter toggle');
+      navbar.classList.toggle('burger-display');
     }
 
     // **MODALE ROLE
@@ -117,4 +117,12 @@ window.addEventListener('DOMContentLoaded', function () {
   closeModale(gwenClose, gwenModale );
 
   })
+    
+    /*let slider = document.getElementById('.slider');
+    slider.addEventListener('click', function(event) {
+      let body = document.querySelector('.all_elements');
+      body.style.fontFamily = "sans-serif";
+    })*/
+    
+  });
   
