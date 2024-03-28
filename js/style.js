@@ -8,5 +8,8 @@ window.addEventListener('DOMContentLoaded', function () {
       console.log('enter toggle')
       navbar.classList.toggle('burger-display')
     }
+
+
+
   })
   
