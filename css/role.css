@@ -170,4 +170,5 @@
   font-size: 4rem;
   color: red;
   text-shadow: 3px 4px 5px #000;
+  cursor: pointer;
 }
