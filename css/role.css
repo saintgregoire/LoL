@@ -1,0 +1,135 @@
+.section_top > h1{
+  font-size: 3rem;
+  text-align: center;
+  padding: 1em 0;
+  display: inline-block;
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section_top > h1::before{
+  content: '';
+  background: url('../ressources/decorator-left.png') no-repeat center / cover;
+  display: block;
+  position: absolute;
+  left: -40px;
+  bottom: 50%;
+  transform: translateY(50%);
+  height: 21px;
+  width: 35px;
+}
+
+.section_top > h1::after {
+  content: '';
+  background: url('../ressources/decorator-right.png') no-repeat center / cover;
+  display: block;
+  position: absolute;
+  right: -37%;
+  bottom: 50%;
+  transform: translateY(50%);
+  height: 21px;
+  width: 35px;
+}
+
+.border {
+  width: 100%;
+  margin: 2em 0;
+}
+
+.border > img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!! CONTENT */
+.content_title {
+  display: inline-block;
+  position: relative;
+  margin-left: 35px;
+}
+
+.content_title::before{
+  content: '';
+  background: url('../ressources/decorator-left.png') no-repeat center / cover;
+  display: block;
+  position: absolute;
+  left: -40px;
+  bottom: 50%;
+  transform: translateY(50%);
+  height: 21px;
+  width: 35px;
+}
+
+.content_title::after {
+  content: '';
+  background: url('../ressources/decorator-right.png') no-repeat center / cover;
+  display: block;
+  position: absolute;
+  right: -37%;
+  bottom: 50%;
+  transform: translateY(50%);
+  height: 21px;
+  width: 35px;
+}
+
+.class_title{
+  margin: 1.5em 0;
+}
+
+.class_subtitle {
+  text-align: center;
+  margin: 3em auto;
+}
+
+.cards_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3em;
+}
+
+.card {
+  flex: 1 1 33%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-bottom: .5rem;
+}
+
+.card_img > img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.card h3, .card p, .card button {
+  margin: 0 2rem;
+}
+
+.card p {
+  height: 100px;
+  overflow: hidden;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card button {
+  width: 90%;
+  background: #C89C3D;
+  color: white;
+  align-self: center;
+  font-size: 1.6rem;
+  padding: .5em 0;
+  cursor: pointer;
+}
+
+.video_second {
+  margin-top: 4rem;
+}
+
+.border_rotate {
+  transform: rotate(180deg);
+}
