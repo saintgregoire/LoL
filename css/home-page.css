@@ -1,82 +1,44 @@
 /*******************************************************************************
-GENERALITES
-*******************************************************************************/
-@font-face {
-    font-family: "Beaufort for LOL Bold";
-    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot");
-    src: url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/12420e8c141ca7c3dff41de2d59df13e.svg#Beaufort for LOL Bold")format("svg");
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-main {
-    background-color: #1F282D;
-}
-
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-h1 {
-    color: #C89C3D;
-    margin: 0;
-    font-family: 'Beaufort for LOL Bold';
-    font-size: 2.4rem;
-}
-
-
-/*******************************************************************************
 INTRO
 *******************************************************************************/
 
 /* DECORATION DIV */
+
 .intro-home-page {
     display: flex;
     justify-content: center;
-    width : 100%;
+    width: 100%;
     height: 465px;
-    background-color: #1F282D;
+    background-color: #fff;
     align-items: center;
     position: relative;
 }
 
 /* DIV VIDEO */
+
 .video-home-page {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 80%;
-    height: 420px;
+    height: 480px;
     padding: 1em;
-    background-color: #fff;
     position: absolute;
     top: 10%;
 }
 
 .video-home-page video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* LOGO*/
+
 .logo-home-page {
     width: 415px;
     height: auto;
@@ -85,6 +47,7 @@ INTRO
 }
 
 /* BUTTON*/
+
 .download {
     display: flex;
     justify-content: center;
@@ -92,8 +55,7 @@ INTRO
     padding: 1em 5em;
     font-family: 'Beaufort for LOL Bold';
     width: 180px;
-    height: ;
-    font-size: 1rem;
+    font-size: 1.5rem;
     background-color: #0397AB;
     border: 1px solid #0397AB;
     color: #333;
@@ -105,8 +67,10 @@ INTRO
 /*******************************************************************************
 CONTENU
 *******************************************************************************/
+
 .invisible-div-home-page {
-    height: 50px;
+    height: 70px;
+    background-color: #1f282d;
 }
 
 
@@ -116,4 +80,36 @@ CONTENU
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+/* SEPARATION */
+.separator-home-page {
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+}
+
+/* ARTICLE */
+.article-home-page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em 0;
+}
+
+/* SOUS ARTICLE */
+
+.div-img-home-page {
+    width: 45%;
+    height: auto;
+}
+
+.text-article-home-page {
+    width: 45%;
+}
+
+.img-home-page {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

@@ -75,6 +75,10 @@
   width: 35px;
 }
 
+.jungle_title::after{
+  right: -46%;
+}
+
 .class_title{
   margin: 1.5em 0;
 }
@@ -132,4 +136,38 @@
 
 .border_rotate {
   transform: rotate(180deg);
+}
+
+/* ???????????????????????? MODALE */
+
+.modale {
+  width: 50%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: black;
+  border-radius: 15px;
+  overflow: hidden;
+  border: 5px solid rgba(200, 156, 61, .6);
+  box-shadow:inset 0px 0px 20px 10px rgba(200, 156, 61, .4);
+  padding-bottom: 1em;
+  display: none;
+}
+
+.modale h3, .modale p {
+  padding: 0 2em;
+}
+
+.modale > .card_img {
+  position: relative;
+}
+
+.croix {
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  font-size: 4rem;
+  color: red;
+  text-shadow: 3px 4px 5px #000;
 }
