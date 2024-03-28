@@ -22,11 +22,33 @@ ul {
 
 h1, h2, h3, h4 {
   color: #C89C3D;
+<<<<<<< HEAD
+  font-family: 'Beaufort for LOL Bold', serif;
+  font-weight: bold;
+=======
   font-family: "Beaufort for LOL Bold", serif;
+>>>>>>> b6e52006efb28feaee5b342771c315d40aa6e625
+}
+
+h1 {
+  font-size: 3.4rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .container {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 30px;
+}
+
+footer.footer_role {
+  padding:0 3rem;
 }

@@ -29,7 +29,8 @@ html {
     content: "";
     position: absolute;
     bottom: -10px;
-    left: 17%;
+    left: 0;
+    right: 0;
     background: url(../ressources/decorator-hr.png) no-repeat center/cover;
   }
 
