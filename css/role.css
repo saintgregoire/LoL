@@ -2,6 +2,9 @@
   overflow-x:hidden;
 }
 
+.header_role a {
+  cursor: url('../ressources/cursor-pointer.png'), auto;
+}
 .section_top > h1{
   font-size: 3rem;
   text-align: center;
@@ -131,7 +134,7 @@
   align-self: center;
   font-size: 1.6rem;
   padding: .5em 0;
-  cursor: pointer;
+  cursor: url('../ressources/cursor-pointer.png'), auto;
 }
 
 .video_second {
@@ -174,7 +177,7 @@
   font-size: 4rem;
   color: red;
   text-shadow: 3px 4px 5px #000;
-  cursor: pointer;
+  cursor: url('../ressources/cursor-pointer.png'), auto;
 }
 
 /*?????????????????????????????????? FOG EFFECT */
