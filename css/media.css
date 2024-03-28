@@ -1,0 +1,70 @@
+
+/************** MAIN **************/
+
+.main_media {
+    background-color: #1F282D;
+}
+
+.titre_rubrique {
+    color: #C89C3D;
+    text-align: center;
+    font-size: 2em;
+/*    font-family: ;*/
+}
+
+.titre_article {
+    color: #C89C3D;
+}
+
+.faker {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 2em;
+}
+
+.faker_text {
+    text-align: center;
+}
+
+.separateur {
+    width: 100%;
+    height: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.separateur_container {
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 3em;
+}
+
+.xpeke {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 2em;
+}
+
+.xpeke_text {
+    text-align: center;
+}
+
+.cine_2020 {
+    text-align: center;
+}
+
+.cine_container {
+    margin-top: 6em;
+    margin-bottom: 2em;
+}
+
+.cine_container2 {
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+
+.cine_worlds {
+    text-align: center;
+}
