@@ -1,0 +1,152 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #010a13;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  #navbar>a {
+    position: relative;
+  }
+  .lien-actif::after{ 
+    width: 13rem;
+    height: 2rem;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 17%;
+    background: url(../ressources/decorator-hr.png) no-repeat center/cover;
+  }
+
+
+
+
+  header img {
+    height: max(max(4vw, 5vh), 50px);
+  }
+  
+  .burger-menu img {
+    display: none;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: max(1.6vw, 1.3rem);
+    font-weight: 900;
+    letter-spacing: 0.2rem;
+    align-items: center;
+    color: rgb(200, 156, 61);
+  }
+  
+  @media screen and (max-width: 740px) {
+    .burger-menu img {
+      display: block;
+      padding-right: 50px;
+      cursor: pointer;
+    }
+  
+    .burger-display {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+  
+   
+  
+    nav {
+      display: none;
+    }
+  }
+  
+  nav a {
+    display: flex;
+    text-decoration: none;
+    margin: 0px 10px;
+    width: max(10vw, 100px);
+    text-align: center;
+    height: 80%;
+    padding: 1em;
+    font-size: 1.8rem;
+    align-items: center;
+    color: #C89C3D;
+    justify-content: center;
+  }
+  nav a:hover {
+    background-color: #1E2328;
+    border-radius: 1em;
+  }
+  nav a:visited {
+    color: #C89C3D;
+  }
+  
+  nav a:active {
+    color: white;
+  }
+  
+  header>a {
+    background-color: #010a13;
+    height: 100%;
+    padding: 10px 0px;
+  }
+ 
+/************* MAIN ***************/
+
+ /*********** FOOTER ************/
+
+  
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    bottom: 0;
+    width: 100%;
+    background-color: #010a13;
+    color: #C89C3D;
+    text-align: center;
+    padding: 0;
+  }
+
+  .social {
+    display: flex;
+    padding: 1em;
+  }
+.social a {
+    text-decoration: none;
+}
+.social a:hover {
+  background-color: #1E2328;
+  border-radius: 1em;
+}
+
+  .social i {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+ 
+    padding: 0 1em;
+  }
+
+  .social:visited {
+    color: #C89C3D;
+  }
+  .social:active {
+    color: white;
+  }
