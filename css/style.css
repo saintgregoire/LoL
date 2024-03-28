@@ -1,0 +1,36 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    min-width: 780px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .container {
+    min-width: 375px;
+  }
+}
+
+.box {
+  width: 400px;
+  height: 400px;
+  color: red;
+}
+.box__white {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=style.css.map */
