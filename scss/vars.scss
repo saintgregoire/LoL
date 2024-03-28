@@ -8,13 +8,13 @@ $background-dark: #010a13;
 
 @mixin vieport-mob {
   @media screen and (max-width: 375px) {
-    @include;
+    @content;
   }
 }
 
 @mixin vieport-tab {
   @media screen and (max-width: 780px) {
-    @include;
+    @content;
   }
 }
 
