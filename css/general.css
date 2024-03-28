@@ -1,0 +1,18 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  color: white;
+  cursor: url("../img/cursor.png"), auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1440px;
+}
