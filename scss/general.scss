@@ -1,7 +1,27 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  color: $main-color-txt;
+}
+
+ul{
+  list-style: none;
+}
+
+
+
 .container {
   @include vieport-tab {
     min-width: 780px;
     margin: 0 auto;
     padding: 0 30px;
+  }
+
+  @include vieport-mob {
+    min-width: 375px; 
   }
 }
