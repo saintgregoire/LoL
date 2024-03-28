@@ -1,3 +1,7 @@
+.body_role {
+  overflow-x:hidden;
+}
+
 .section_top > h1{
   font-size: 3rem;
   text-align: center;
@@ -34,7 +38,7 @@
 }
 
 .border {
-  width: 100%;
+  width: 100vw;
   margin: 2em 0;
 }
 
@@ -96,7 +100,7 @@
 }
 
 .card {
-  flex: 1 1 33%;
+  flex: 1 1 30%;
   background: black;
   display: flex;
   flex-direction: column;
@@ -171,4 +175,27 @@
   color: red;
   text-shadow: 3px 4px 5px #000;
   cursor: pointer;
+}
+
+/*?????????????????????????????????? FOG EFFECT */
+.video_first {
+  position: relative;
+}
+
+#myCanvas
+{
+  width:100vw;
+  height:70px;
+  position:absolute;
+  top:-68px;
+  left: 0;
+}
+
+/*?????????????????????????????? ROUND ANIMATION */
+.round {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
