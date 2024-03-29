@@ -40,8 +40,17 @@ a {
   color: #fff;
 }
 
-.container {
+
+
+.container, .container_role {
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 30px;
+}
+
+footer {
+  margin-top: 2em;
+}
+.footer_role {
+  padding:0 3rem;
 }
