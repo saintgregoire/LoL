@@ -1,6 +1,9 @@
 @media screen and (max-width: 780px) {
   .container {
     min-width: 780px;
+    
+    /* HOME PAGE */
+    
   }
 }
 @media screen and (max-width: 375px) {
