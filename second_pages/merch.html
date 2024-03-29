@@ -14,7 +14,7 @@
 
 <body>
     <header>
-        <a href="index.html"><img src="/img/logo-d-4x-zoom-rendered-00.webp" alt="Logo League of Legend"></a>
+        <a href="index.html"><img src="../ressources/logo-d-4x-zoom-rendered-00.webp" alt="Logo League of Legend"></a>
         <div class="burger-menu">
             <img src="/LoL/ressources/bars-solid (3).svg" alt=" burger menu icon" id="burger-icon" />
         </div>
@@ -44,7 +44,7 @@
             <a href="#">Promos</a>
         </nav>
 <div class="content-merch">
-        <aside class="aside">
+        <article class="aside">
             <h1>Catégories</h1>
                 <p>Hauts</p>
                 <p>Bas</p>
@@ -52,17 +52,23 @@
                 <p>Vêtements d'intérieur</p>
                 <p>Chapeaux et bonnets</p>
                 <p>Bijoux</p>
-        </aside>
-        <article class="container-grid">
-            <p>Trier par</p>
-                <div class="grid">
-                    <img src="/LoL/ressources/pull.JPG" alt="image d'un pull">
-                    <img src="/LoL/ressources/casquette.JPG" alt="image d'une casquette">
-                    <img src="/LoL/ressources/vest.JPG" alt="image d'une veste">
-                    <img src="/LoL/ressources/sweat.JPG" alt="image d'un sweat">
-                    <img src="/LoL/ressources/pull bleu.JPG" alt="image d'un pull">
-                    <img src="/LoL/ressources/veste beige.JPG" alt="image d'un pull">
-                </div>
+
+                <form action="page-de-recherche.html" method="get" class="form_recherche">
+                    <input type="search" name="query" placeholder="Rechercher...">
+                    <button type="submit">Rechercher</button>
+                </form>
+
+            </article>
+        
+        <article class="container-right container-card">
+              
+                    <img src="/LoL/ressources/pull.JPG" alt="image d'un pull" class="img-survol">
+                    <img src="/LoL/ressources/casquette.JPG" alt="image d'une casquette" class="img-survol">
+                    <img src="/LoL/ressources/vest.JPG" alt="image d'une veste" class="img-survol">
+                    <img src="/LoL/ressources/sweat.JPG" alt="image d'un sweat" class="img-survol">
+                    <img src="/LoL/ressources/pull bleu.JPG" alt="image d'un pull" class="img-survol">
+                    <img src="/LoL/ressources/veste beige.JPG" alt="image d'un pull" class="img-survol">
+    
         </article>
     </div>
     </main>
