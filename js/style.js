@@ -1,3 +1,5 @@
+
+
 function openModale(element, modale ){
   element.addEventListener('click', function(){
   modale.style.display = "block";
@@ -12,6 +14,21 @@ function closeModale(element, modale ){
 
 
 window.addEventListener('DOMContentLoaded', function () {
+  //Switch Dyslexic mode
+  let clickCounter = 0;
+let slider = document.querySelector('.slider');
+    slider.addEventListener('click', function(event) {
+      let test = document.querySelector('.all_elements');
+      let titres = document.querySelectorAll('.titre_rubrique');
+        clickCounter++;
+        if (clickCounter % 2 === 0) {
+            test.style.fontFamily = 'sans-serif';
+            titres.style.fontFamily = 'Beaufort for LOL Bold';
+        } else {
+            test.style.fontFamily = 'Open-Dyslexic';
+            titres.style.fontFamily = 'Open-Dyslexic';
+        }
+});
     //header burger menu
     let navbar = document.getElementById('navbar');
     let burgerIcon = document.getElementById('burger-icon');
@@ -116,13 +133,9 @@ window.addEventListener('DOMContentLoaded', function () {
   openModale(gwen, gwenModale );
   closeModale(gwenClose, gwenModale );
 
-  })
+  
     
-  //   let slider = document.getElementById('.slider');
-  //   slider.addEventListener('click', function(event) {
-  //     let body = document.querySelector('.all_elements');
-  //     body.style.fontFamily = "sans-serif";
-  //   })
-    
-  // });
+
+});
+
   

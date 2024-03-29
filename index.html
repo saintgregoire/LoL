@@ -5,10 +5,33 @@
     <meta charset="UTF-8">
     <title>League of Legends</title>
     <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/open-dyslexic" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bd5d7da3bf.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body class="all_elements">
+    <header>
+        <div class="slider_container">
+        <a href="index.html"><img src="./ressources/logo-d-4x-zoom-rendered-00.webp" alt="Logo League of Legend"></a>
+        <label class="switch">
+  <input type="checkbox">
+  <span class="slider roundi"></span>
+</label></div>
+        <div class="burger-menu">
+            <img src="/LoL/ressources/bars-solid (3).svg"  alt=" burger menu icon" id="burger-icon" />
+        </div>
+        <nav id="navbar">
+            <a href="index.html" class="lien-actif">Accueil</a>
+            
+            <a href="./second_pages/role.html">Rôles</a>
+            
+            <a href="./second_pages/merch.html">Merch</a>
+            
+            <a href="./second_pages/media.html">Médias</a>
+        </nav>
+    </header>
     <main>
         <div class="intro-home-page">
             <div class="video-home-page">
@@ -17,19 +40,19 @@
                      Your browser does not support the video tag.
                 </video>
                 <img class="logo-home-page" src="./ressources/logo.png" />
-                <a class="download"href="https://signup.leagueoflegends.com/fr-fr/signup/index">Télécharger</a>
+                <a class="download" href="https://signup.leagueoflegends.com/fr-fr/signup/index">Télécharger</a>
             </div>
         </div>
         <div class="invisible-div-home-page"></div>
         <div class="container content-home-page">
             <img class="separator-home-page" src="./ressources/decorator-hr-lg.png" />
-            <h1>C'est quoi League of Legends ?</h1>
+            <h1 class="h1-home-page">C'est quoi LoL ?</h1>
             <article class="article-home-page">
                 <div class="div-img-home-page">
                     <img class="img-home-page" src="./ressources/map.png" />
                 </div>
                 <div class="text-article-home-page">
-                    <h2>Le lore du jeu</h2>
+                    <h2 class="h2-home-page">Le lore du jeu</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit ut aliquam purus sit amet. Facilisi cras fermentum odio eu feugiat. Vel facilisis
                         volutpat est velit. Volutpat maecenas volutpat blandit aliquam etiam erat. Vitae congue eu consequat ac felis. Luctus accumsan tortor posuere ac ut consequat semper viverra. At ultrices mi tempus imperdiet. Senectus et netus et
                         malesuada. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Tortor vitae purus faucibus ornare suspendisse. Sem fringilla ut morbi tincidunt augue interdum velit euismod.</p>
@@ -40,9 +63,12 @@
                 </div>
             </article>
             <img class="separator-home-page" src="./ressources/decorator-hr-lg.png" />
-            <article class="article-home-page">
+            <article class="article-2-home-page article-home-page">
+                <div class="div-img-home-page">
+                    <img class="img-home-page" src="./ressources/MOBA.png" />
+                </div>
                 <div class="text-article-home-page">
-                    <h2>Un jeu MOBA</h2>
+                    <h2 class="h2-home-page">Un jeu MOBA</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Amet consectetur adipiscing elit ut aliquam purus sit amet. Facilisi cras fermentum odio eu feugiat. Vel facilisis
                         volutpat est velit. Volutpat maecenas volutpat blandit aliquam etiam erat. Vitae congue eu consequat ac felis. Luctus accumsan tortor posuere ac ut consequat semper viverra. At ultrices mi tempus imperdiet. Senectus et netus et
                         malesuada. Tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula. Tortor vitae purus faucibus ornare suspendisse. Sem fringilla ut morbi tincidunt augue interdum velit euismod.</p>
@@ -50,9 +76,6 @@
                         mi bibendum neque egestas congue quisque egestas. Senectus et netus et malesuada. Consequat ac felis donec et odio. Donec ac odio tempor orci. Tellus molestie nunc non blandit massa enim nec dui nunc. Sagittis aliquam malesuada
                         bibendum arcu. Dignissim enim sit amet venenatis urna cursus eget nunc scelerisque. Pellentesque habitant morbi tristique senectus. Amet venenatis urna cursus eget nunc scelerisque viverra mauris in. Elit pellentesque habitant
                         morbi tristique.</p>
-                </div>
-                <div class="div-img-home-page">
-                    <img class="img-home-page" src="./ressources/MOBA.png" />
                 </div>
             </article>
             <img class="separator-home-page" src="./ressources/decorator-hr-lg.png" />
@@ -61,7 +84,7 @@
                     <img class="img-home-page" src="./ressources/creators.png" />
                 </div>
                 <div class="text-article-home-page">
-                    <h2>La création du jeu</h2>
+                    <h2 class="h2-home-page">La création du jeu</h2>
                     <p>Pour comprendre d’où vient League of Legends, il faut s’intéresser à un tout autre jeu : Warcraft. On ne parle pas ici de World of Warcraft, très célèbre MMORPG, mais bien de Warcraft, jeu de stratégie. Les jeux les plus populaires
                         sont souvent adorés par leur communauté, qui donne du sien pour apporter encore plus de vie à leur jeu préféré. Il existe donc des façons de modifier un jeu pour avoir différents effets. Ces Mods permettent entre autres de changer
                         les visuels du jeu ou de créer de nouveaux modes de jeu. </p>
@@ -75,6 +98,18 @@
             </article>
         </div>
     </main>
-</body>
+    <footer class="footer">
+        <p>Copyright : Kilian - Janel - Maksym - Nicolas & Riot Games</p>
 
+        <div class="social">
+            <a href="https://www.youtube.com"><i class="fa-brands fa-youtube" style="color: #c89c3d;"></i></a>
+            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-f" style="color: #c89c3d;"></i></a>
+            <a href="https://twitter.com/?lang=fr"><i class="fa-brands fa-x-twitter" style="color: #c89c3d;"></i></a>
+            <a href="https://www.facebook.com/?locale=fr_FR"><i class="fa-brands fa-instagram" style="color: #c89c3d;"></i></a>
+            <a href="https://discord.com/"><i class="fa-brands fa-discord" style="color: #c89c3d;"></i></a>
+        </div>
+
+    </footer>
+</body>
+<script src="./js/style.js"></script>
 </html>

@@ -3,19 +3,17 @@ INTRO
 *******************************************************************************/
 
 /* DECORATION DIV */
-
 .intro-home-page {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 465px;
-    background-color: #fff;
+    background-color: #1f282d;
     align-items: center;
     position: relative;
 }
 
 /* DIV VIDEO */
-
 .video-home-page {
     display: flex;
     flex-direction: column;
@@ -26,6 +24,7 @@ INTRO
     padding: 1em;
     position: absolute;
     top: 10%;
+    background: none;
 }
 
 .video-home-page video {
@@ -38,7 +37,6 @@ INTRO
 }
 
 /* LOGO*/
-
 .logo-home-page {
     width: 415px;
     height: auto;
@@ -47,7 +45,6 @@ INTRO
 }
 
 /* BUTTON*/
-
 .download {
     display: flex;
     justify-content: center;
@@ -68,6 +65,7 @@ INTRO
 CONTENU
 *******************************************************************************/
 
+/* INVISIBLE DIV */
 .invisible-div-home-page {
     height: 70px;
     background-color: #1f282d;
@@ -85,7 +83,7 @@ CONTENU
 /* SEPARATION */
 .separator-home-page {
     margin: 0 auto;
-    width: 960px;
+    width: 100%;
     height: auto;
 }
 
@@ -97,8 +95,16 @@ CONTENU
     margin: 1em 0;
 }
 
-/* SOUS ARTICLE */
 
+.article-2-home-page {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em 0;
+}
+
+/* SOUS ARTICLE */
 .div-img-home-page {
     width: 45%;
     height: auto;
@@ -112,4 +118,85 @@ CONTENU
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/*******************************************************************************
+VERSION TABLETTE
+*******************************************************************************/
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    /* HOME PAGE */
+    .article-home-page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-article-home-page {
+        width: 100%;
+    }
+}
+
+/*******************************************************************************
+VERSION MOBILE
+*******************************************************************************/
+
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 375px;
+    }
+    
+    /* HOME PAGE */
+    
+    /* INTRO */
+    .intro-home-page {
+        height: 300px;
+    }
+    
+    .video-home-page {
+        height: 300px;
+    }
+    
+    .logo-home-page {
+        width: 200px;
+        height: auto;
+    }
+
+    .download {
+        width: 90px;
+        font-size: 1rem;
+    }
+    
+    /* INVISIBLE DIV */
+    .invisible-div-home-page {
+        height: 50px;
+    }
+    
+    /* CONTENT */
+    .content-home-page {
+        display: flex;
+        justify-content: center;
+    }
+
+    .h1-home-page {
+        font-size: 2.3rem;
+    }
+
+    .h2-home-page {
+        font-size: 2rem;
+    }
+    
+    .div-img-home-page {
+        display: none;
+    }
+
+    /* FOOTER */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
