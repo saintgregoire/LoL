@@ -95,7 +95,7 @@
 
 .slider_container{
     display: flex;
-    justify-content: align-items;
+    justify-content: center;
     align-items: center;
 }
 
@@ -155,10 +155,13 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-.slider.round {
+.slider.roundi {
   border-radius: 34px;
 }
 
-.slider.round:before {
+.slider.roundi:before {
   border-radius: 50%;
 }
+
+/******************* FONT *****************/
+
