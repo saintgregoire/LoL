@@ -9,10 +9,10 @@ You can get acquainted with the roles of the characters and the most popular cha
 
 ## Summary
 
-- Philosophy
-- License
-- Technical stack
-- Installation
+- [Philosophy](#philosophy)
+- [License](#license)
+- [Technical stack](#technical-stack)
+- [Installation](#installation)
 
 ## Philosophy
 
