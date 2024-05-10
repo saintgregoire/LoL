@@ -11,7 +11,7 @@ You can get acquainted with the roles of the characters and the most popular cha
 
 - [Philosophy](#philosophy)
 - [License](#license)
-- [Technical stack](#technical-stack)
+- [Tools](#tools)
 - [Installation](#installation)
 
 ## Philosophy
@@ -29,7 +29,7 @@ I wanted to preserve as much as possible the design and color scheme of the offi
 
 *Some materials were taken from the [official website of the game](https://www.leagueoflegends.com/fr-fr/).*
 
-## Technical stack
+## Tools
 
 Frontend 
 
