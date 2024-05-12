@@ -25,7 +25,7 @@ I wanted to preserve as much as possible the design and color scheme of the offi
 
 ## License
 
-[GPL : https://en.wikipedia.org/wiki/GNU_General_Public_License](https://en.wikipedia.org/wiki/GNU_General_Public_License)
+Was created under the [MIT License](./_docs/LICENSE)
 
 *Some materials were taken from the [official website of the game](https://www.leagueoflegends.com/fr-fr/).*
 
