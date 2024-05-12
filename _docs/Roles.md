@@ -11,7 +11,7 @@ You can get acquainted with the roles of the characters and the most popular cha
 
 - [Philosophy](#philosophy)
 - [License](#license)
-- [Technical stack](#technical-stack)
+- [Tools](#tools)
 - [Installation](#installation)
 
 ## Philosophy
@@ -29,7 +29,7 @@ Was created under the [MIT License](./_docs/LICENSE)
 
 *Some materials were taken from the [official website of the game](https://www.leagueoflegends.com/fr-fr/).*
 
-## Technical stack
+## Tools
 
 Frontend 
 
